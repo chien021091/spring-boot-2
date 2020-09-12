@@ -2,7 +2,7 @@ package me.loda.spring;
 
 import org.springframework.stereotype.Component;
 
-@Component("bikini")
+@Component
 public class Bikini implements Outfit {
 
 	@Override

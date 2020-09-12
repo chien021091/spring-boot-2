@@ -1,8 +1,10 @@
 package me.loda.spring;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component("naked")
+@Component
+@Primary
 public class Naked implements Outfit {
 
 	@Override
